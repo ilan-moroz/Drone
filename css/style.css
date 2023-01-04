@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-image: url(../img/drone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1300px 1000px;
+}
+form {
+  border: 3px solid darkblue;
+  box-shadow: 5px 5px 5px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+table {
+  margin: 50px auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid whitesmoke;
+  border-collapse: collapse;
+  padding: 10px;
+  color: darkblue;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.6);
+}
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+  color: darkblue;
+}
+#data {
+  color: darkblue;
+}
+#data {
+  background-color: rgba(255, 255, 255, 0.5);
+}

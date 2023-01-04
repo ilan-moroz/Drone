@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drone Warranty</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/myJs.js"></script>
+  </head>
+  <body>
+    <h1>Drone Warranty</h1>
+    <form id="myForm" action="javascript:droneWarranty()">
+      <input type="text" placeholder="Name" id="name" /><br /><br />
+      <input
+        type="number"
+        placeholder="Phone Number"
+        id="phoneNumber"
+      /><br /><br />
+      <input type="text" placeholder="address" id="address" /><br /><br />
+      <input type="checkbox" id="vip" />VIP<br /><br />
+      <select id="company">
+        <option selected disabled>Choose drone Company</option>
+        <option value="dji">DJI</option>
+        <option value="parrot">Parrot</option>
+        <option value="skydio">Skydio</option></select
+      ><br /><br />
+      <input id="model" type="text" placeholder="Drone Model" /><br /><br />
+      <textarea id="takala" placeholder="Description Of the TAKALA"></textarea
+      ><br /><br />
+      <textarea id="tipul" placeholder="Description Of the tipul"></textarea
+      ><br /><br />
+      <select id="warranty">
+        <option selected disabled>Choose Warranty</option>
+        <option value="regular">Regular</option>
+        <option value="expanded">Expanded</option>
+        <option value="insurance">insurance</option>
+        <option value="noWarranty">No Warranty</option>
+        <option value="vip">VIP</option></select
+      ><br /><br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+    <table id="table">
+      <thead>
+        <th>Date</th>
+        <th>Estimated Return</th>
+        <th>Days Left</th>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Description</th>
+      </thead>
+      <tbody id="droneBody"></tbody>
+    </table>
+    <div id="data"></div>
+  </body>
+</html>
